@@ -1,0 +1,76 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 overflow-auto py-4">
+            <h1 class="text-center mb-4">Welcome to the {{league?.league.name}}!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 pb-3">
+            <div class="card mb-4 card-height overflow-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Standings</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Event 1</li>
+                        <li class="list-group-item">Event 2</li>
+                        <li class="list-group-item">Event 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 pb-3">
+            <div class="card mb-4 card-height overflow-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Standings</h5>
+                    <div class="container">
+                        <div id="wg-api-football-standings" data-host="v3.football.api-sports.io"
+                            data-key="e4d5977d2973568a1890ec239899ef43" data-league="39" data-team="" data-season="2022"
+                            data-theme="dark" data-show-errors="true" data-show-logos="true" class="wg_loader">
+                        </div>
+                    </div>
+                    <script type="module" src="https://widgets.api-sports.io/2.0.3/widgets.js">
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 pb-3">
+            <div class="card mb-4 card-height overflow-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Top Bets</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Bet 1</li>
+                        <li class="list-group-item">Bet 2</li>
+                        <li class="list-group-item">Bet 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 pb-3">
+            <div class="card mb-4 card-height overflow-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Latest News</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">News 1</li>
+                        <li class="list-group-item">News 2</li>
+                        <li class="list-group-item">News 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 pb-3">
+            <div class="card bg-success text-white mb-4 card-height overflow-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Achievements</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Achievement 1</li>
+                        <li class="list-group-item">Achievement 2</li>
+                        <li class="list-group-item">Achievement 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

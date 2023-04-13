@@ -1,0 +1,8 @@
+<a [routerLink]="['/leagues', league.id]">
+    <div class="d-flex justify-content-between border border-success rounded mb-1 hover">
+        <div class="col-md-4"><img class="team-logo" src="{{league?.league.logo}}" alt="League Logo"></div>
+        <div class="col-md-4">{{league?.league.name}}</div>
+        <div class="col-md-4">{{league?.seasons[league.seasons.length - 1].start}} / {{league?.seasons[league.seasons.length
+            - 1].end}}</div>
+    </div>
+</a>
